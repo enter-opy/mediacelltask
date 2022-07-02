@@ -57,3 +57,12 @@ body {
     float: right;
     padding: 8px 8px;
 }
+
+.heading {
+    float: right;
+    display: inline;
+    color: white;
+    font-size: 24px;
+    padding-top: 8px;
+    margin-right: 4%;
+}
