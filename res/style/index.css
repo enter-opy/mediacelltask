@@ -1,8 +1,14 @@
-html, body {
+body {
     margin:0px;
+    background-image: url("backgrounds/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
 }
 
 .navbar {
+    position: fixed;
+    top: 0;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -35,6 +41,15 @@ html, body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.button:hover {
+    width: 12.5%;
+    height: 65px;
+    float: left;
+    display: inline;
+    background-color: #1b2a37;
+    color: #FFF;
 }
 
 .container1 {
