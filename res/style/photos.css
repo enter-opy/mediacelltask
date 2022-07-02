@@ -16,8 +16,8 @@ html, body {
     width: 12.5%;
     float: left;
     display: inline;
-    background-color: #04AA6D;
-    color: #000;
+    background-color: #051618;
+    color: #357C3C;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -25,15 +25,16 @@ html, body {
 
 .button {
     width: 12.5%;
+    background-color: #141E27;
     float: left;
     display: inline;
-    color: #000;
+    color: #357C3C;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .button:hover {
-    background-color: #555;
+    background-color: #203239;
     color: white;
 }
