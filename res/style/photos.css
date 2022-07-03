@@ -76,13 +76,20 @@ body {
     padding-right: 8px;
     margin-top: 125px;
     margin-bottom: 40px;
-    width: 80%;
+    width: 77.5%;
 }
 
 .img {
     border-radius: 15px;
     display: inline;
-
+    transition: transform .25s ease;
     padding: 20px;
     box-shadow: none;
+}
+
+.img:hover {
+    border-radius: 15px;
+    transform: scale(1.75);
+    padding: 0;
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.5);
 }
