@@ -62,9 +62,10 @@ body {
     float: right;
     display: inline;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     padding-top: 8px;
     margin-right: 4%;
+    width: 20%;
 }
 
 .container {
@@ -86,8 +87,8 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 5%;
-    padding-left: 20px;
-    padding-right: 9%;
+    padding-left: 4%;
+    padding-right: 6%;
     padding-top: 10px;
     padding-bottom: 10px;
     overflow: hidden;
@@ -105,8 +106,9 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 5%;
-    padding-left: 50px;
-    padding-right: 7.42%;
+    margin-right: 6%;
+    padding-left: 4%;
+    padding-right: 6%;
     padding-top: 20px;
     padding-bottom: 30px;
     overflow: hidden;
@@ -123,8 +125,9 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 5%;
-    padding-left: 50px;
-    padding-right: 7.45%;
+    margin-right: 6%;
+    padding-left: 4%;
+    padding-right: 6%;
     padding-top: 30px;
     padding-bottom: 40px;
     overflow: hidden;

@@ -5,9 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <title>website</title>
+        <title>College of Engineering Chengannur - Downloads</title>
 
         <link rel="stylesheet" href="res/style/downloads.css" type="text/css">
+
+        <script type="text/javascript" src="res/script/downloads.js"></script>
     </head>
     <body background="res/imgs/assets/cec.jpg">
         <ul class="navbar">
@@ -22,36 +24,39 @@
         <div class="files">
             <ul style="list-style: none;">
                 <li class="file_name">
-                    <div style="display: inline; float: left; padding-top: 15px; padding-left: 50px;">File 0</div><a href="res/downloads/file0.zip" class="link">Download</a>
+                    <div style="display: inline; float: left; padding-top: 15px; padding-left: 50px;">File 0</div><a href="res/downloads/file0.zip" class="link" id="link0" disabled>Download</a>
                 </li>
             </ul>
 
             <ul style="list-style: none;">
                 <li class="file_name">
-                    <div style="display: inline; float: left; padding-top: 15px; padding-left: 50px;">File 1</div><a href="res/downloads/file1.zip" class="link">Download</a>
+                    <div style="display: inline; float: left; padding-top: 15px; padding-left: 50px;">File 1</div><a href="res/downloads/file1.zip" class="link" id="link1">Download</a>
                 </li>
             </ul>
             
             <ul style="list-style: none;">
                 <li class="file_name">
-                    <div style="display: inline; float: left; padding-top: 15px; padding-left: 50px;">File 2</div><a href="res/downloads/file2.zip" class="link">Download</a>
+                    <div style="display: inline; float: left; padding-top: 15px; padding-left: 50px;">File 2</div><a href="res/downloads/file2.zip" class="link" id="link2">Download</a>
                 </li>
             </ul>
 
             <ul style="list-style: none;">
                 <li class="file_name">
-                    <div style="display: inline; float: left; padding-top: 15px; padding-left: 50px;">File 3</div><a href="res/downloads/file3.zip" class="link">Download</a>
+                    <div style="display: inline; float: left; padding-top: 15px; padding-left: 50px;">File 3</div><a href="res/downloads/file3.zip" class="link" id="link3">Download</a>
                 </li>
             </ul>
             
             <ul style="list-style: none;">
                 <li class="file_name">
-                    <div style="display: inline; float: left; padding-top: 15px; padding-left: 50px;">File 4</div><a href="res/downloads/file4.zip" class="link">Download</a>
+                    <div style="display: inline; float: left; padding-top: 15px; padding-left: 50px;">File 4</div><a href="res/downloads/file4.zip" class="link" id="link4">Download</a>
                 </li>
             </ul>
 
         </div>
 
+        <div class="bottom">
+            <input type="checkbox" class="checkbox" id="checkbox" onclick="downloadState()">&nbsp;&nbsp;I agree to the <a class="a" href="res/tos.txt" target="_blank" rel="noopener noreferrer">terms of service.</a>
+        </div>
         
     </body>
 </html>

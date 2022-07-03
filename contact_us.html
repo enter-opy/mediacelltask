@@ -5,9 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <title>website</title>
+        <title>College of Engineering Chengannur - Contact</title>
 
         <link rel="stylesheet" href="res/style/contact_us.css" type="text/css">
+
+        <script type="text/javascript" src="res/script/contacts.js"></script>
     </head>
     <body>
         <body background="res/imgs/assets/cec.jpg">
@@ -29,7 +31,8 @@
             </div>
             
             <div class="bottom">
-                <input type="submit" value="Submit" class="submit">
+                <input type="checkbox" class="checkbox" id="checkbox" onclick="submitState()">&nbsp;&nbsp;I agree to the <a class="a" href="res/tos.txt" target="_blank" rel="noopener noreferrer">terms of service.</a>
+                <input type="submit" value="Submit" class="submit" id="submit" onclick="message()">
             </div>
         </form>
     </body>

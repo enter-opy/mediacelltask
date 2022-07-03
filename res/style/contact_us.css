@@ -62,9 +62,10 @@ body {
     float: right;
     display: inline;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     padding-top: 8px;
     margin-right: 4%;
+    width: 20%;
 }
 
 .form {
@@ -133,9 +134,11 @@ body {
     width: 40%;
     padding-bottom: 40px;
     background-color: #141E27;
-    color: #09cc1c;
-    text-align: center;
-    text-decoration: none;
+    color: white;
+}
+
+.checkbox {
+    margin-top: 21px;
 }
 
 .submit {
@@ -162,4 +165,8 @@ body {
 
 .submit:active {
     background-color: #076210;
+}
+
+.a {
+    color: #0b9419;
 }
