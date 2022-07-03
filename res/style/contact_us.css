@@ -6,6 +6,7 @@ body {
 }
 
 .navbar {
+    z-index: 1000;
     list-style: none;
     position: fixed;
     top: 0;

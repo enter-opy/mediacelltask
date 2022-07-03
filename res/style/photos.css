@@ -2,11 +2,11 @@ body {
     margin:0px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover
+    background-size: cover;
 }
 
-
 .navbar {
+    z-index: 1000;
     list-style: none;
     position: fixed;
     top: 0;
@@ -69,51 +69,20 @@ body {
     width: 20%;
 }
 
-.bar1 {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 100px;
-    margin-bottom: 0;
-    display: block;
-    height: 100px;
-    width: 1060px;
-    background-color: #2c7e34;
-}
-
 .photos {
-    padding-top: 12px;
-    padding-bottom: 7px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 8px;
     padding-right: 8px;
-    margin-top: 0;
-    display: block;
-    width: 1060px;
-    background-color: #ffffff;
+    margin-top: 125px;
+    margin-bottom: 40px;
+    width: 80%;
 }
 
 .img {
+    border-radius: 15px;
     display: inline;
-    transition: transform .25s ease;
-    padding: 5px;
-}
 
-.img:hover {
-    transform: scale(1.4);
-    padding: 0;
-    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.5);
-}
-
-.bar2 {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 0;
-    display: block;
-    height: 100px;
-    width: 1060px;
-    background-color: #2c7e34;
+    padding: 20px;
+    box-shadow: none;
 }
